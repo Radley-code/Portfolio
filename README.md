@@ -4,7 +4,7 @@
 
   <br/>
 
-  <h1><b>Hello Codegisoft Academy</b></h1>
+  <h1><b>Portfolio</b></h1>
 
 </div>
 
@@ -29,7 +29,7 @@
 
 # 📖 Hello Codegisoft Academy <a name="about-project"></a>
 
-This is the first technical Codegisoft Academy project it tests more on Git, GitHub, GitHub Workflow and Linters.
+This is a portfolio website that holds my projects
 
 *[Portfolio]* is a HTML CSS project
 
