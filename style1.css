@@ -78,14 +78,15 @@ header {
 
 .hero-image {
   background-size: cover;
+
   /* Illustration */
-  position: absolute;     
-  bottom: 0;              
-  right: 0;               
-  height: 60%;             
-  width: auto;             
-  display: flex;          
-  align-items: flex-end;   
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 60%;
+  width: auto;
+  display: flex;
+  align-items: flex-end;
 }
 
 .hero-image img {

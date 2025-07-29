@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Media Queries for mobile devices */
+@media (max-width: 768px) {
+  .desktop-menu,
+  .desk_social,
+  .home_desk_bg {
+    display: none;
+  }
+
+  header {
+    padding: 15px 10px;
+    background-color: #3c3a39;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo a {
+    text-decoration: none;
+    font-style: 18px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffff;
+  }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .mobile-menu p {
+    padding: 1px 10px;
+    background-color: #fff;
+  }
+
+  /* Hero Section styling */
+  .home {
+    padding: 120px 0 20px 24px;
+    background: #000;
+  }
+
+  .home h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #ff6b00;
+    line-height: 64px;
+  }
+
+  .home h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 40px;
+  }
+
+  .home p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    padding-right: 10px;
+    line-height: 24px;
+    margin-top: 10px;
+  }
+
+  .home .mobile_social ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+  }
+
+  .bg {
+    display: flex;
+    justify-content: end;
+    margin-top: -250px;
+  }
+}
