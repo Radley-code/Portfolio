@@ -12,7 +12,8 @@
   .home_desk_bg {
     display: none;
   }
-/* header styling */
+
+  /* header styling */
   header {
     z-index: 1000;
     padding: 25px 10px;
@@ -44,7 +45,6 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
-
   }
 
   .mobile-menu p {
@@ -96,175 +96,281 @@
   }
 }
 
-/*Portfolio Section styling */
-.projects{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 150px 80px;
+/* Portfolio Section styling */
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 150px 80px;
 }
-.project_heading{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    z-index: 2;
-    position: relative;
-    margin-bottom: 60px; /* Add space between heading and image */
+
+.project_heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 60px; /* Add space between heading and image */
 }
+
 .project_heading h2 {
   font-size: 30px;
   font-weight: 400;
-
+  white-space: nowrap;
 }
+
 .project_heading p {
-  background: #000000;
+  background: #000;
   padding: 1px 55px;
 }
-.diff_card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 327px;
-    border: 2px solid #ff6b00;
-    padding: 0 5px 5px 5px;
-    border-top: none; 
-    
+
+.diff_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 327px;
+  border: 2px solid #ff6b00;
+  padding: 0 5px 5px 5px;
+  border-top: none;
 }
+
 .diff_cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
 .diff_cards span {
-    background: url("../images/mob_lone_bg.svg");
-    background-size: cover;
-    background-position:  center;
-    padding: 100px 163px;
-    background-repeat: no-repeat;
-    border-radius: 8px;
+  background: url("../images/mob_lone_bg.svg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 163px;
+  background-repeat: no-repeat;
+  border-radius: 8px;
 }
 
-.diff_text{
+.diff_text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.diff_text h3 {
+  font-style: 32px;
+  font-weight: 400px;
+}
+
+.diff_text p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.diff_text ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.diff_text ul li {
+  padding: 10px 12px;
+  font-size: 15px;
+  z-index: 1;
+  border: 1px solid gray;
+  font-weight: 500;
+}
+
+.diff_text button {
+  width: 124px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ff6b00;
+  color: #fff;
+  font-size: 17px;
+  margin-top: 80px;
+  padding: 12px;
+}
+
+.sim_cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.sim_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 327px;
+  height: 368px;
+  border: none;
+  background: url("../images/projects_bg.svg");
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  padding: 5px;
+}
+
+.sim_card h3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 44px;
+}
+
+.sim_card p {
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+}
+
+.sim_card ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.sim_card ul li {
+  padding: 5px;
+  font-size: 15px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.sim_card ul li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  backdrop-filter: blur(10px);
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  transition: all 0.3s ease-in-out;
+}
+
+.sim_card button {
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  background-color: #ff6b00;
+  color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 80px;
+  padding: 12px;
+}
+
+@media (max-width: 768px) {
+  /* About section styling  */
+  .about {
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    color: #fff;
+  }
+
+  .about-text {
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-.diff_text h3{
-    font-style: 32px;
-    font-weight: 400px;
-}
+    padding: 5px;
+  }
 
-.diff_text p{
+  .about-text h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #ff6b00;
+  }
+
+  .about-text p {
     font-size: 16px;
-    font-weight: 400;
-}
-
-.diff_text ul{
-    display: flex;
-    gap: 10px;
-    list-style: none;
-}
-
-.diff_text ul li{
-    padding: 10px 12px;
-    font-size: 15px;
-    z-index: 1;
-    border: 1px solid gray;
     font-weight: 500;
-}
+    color: #fff;
+    padding-right: 10px;
+    line-height: 24px;
+  }
 
-.diff_text button{
-    width: 124px;
-    border-radius: 8px;
+  .about button {
+    width: 150px;
     border: none;
     background-color: #ff6b00;
     color: #fff;
     font-weight: 500;
-    font-size: 17px;
-    margin-top: 80px;
-    padding: 12px;
-    border: none;
-    border-radius: 8px;
-}
+    font-size: 10px;
+    padding: 10px;
+  }
 
-.sim_cards{
+  .abt_desk_bg {
+    display: none;
+  }
+
+  .about-bg {
+    display: flex;
+    justify-content: end;
+    margin-top: -50px;
+    position: relative;
+    border-bottom: 1px solid #fff;
+    padding-left: 20px;
+  }
+
+  .about-cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-}
+    gap: 20px;
+    padding: 30px 5px;
+  }
 
-.sim_card{
+  .about-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 327px;
-    height: 368px;
-    border: 2px solid #ff6b00;
-    background: url("../images/projects_bg.svg");
+    height: 340px;
+    border: 1px solid #ff6b00;
+    background: url("../images/abt_card_bg.svg");
     color: #fff;
     background-size: cover;
     background-position: center;
     padding: 5px;
-    display: flex;
-}
+    border-radius: 4px 4px 20px 20px;
+  }
 
-.sim_card h3{
+  .about-card span {
+    display: flex;
+    gap: 10px;
+  }
+
+  .about-card span h3 {
     font-size: 32px;
     font-weight: 500;
     line-height: 44px;
-}
+  }
 
-.sim_card p{
-    font-size: 16px;
-    font-weight: 400px;
-    line-height: 24px;
-}
-.sim_card ul{
-    display: flex;
-    gap: 10px;
+  .about-card ul {
     list-style: none;
-}
-.sim_card ul li{
-    padding: 5px;
-    font-size: 15px;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-}
-.sim_card ul li::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    backdrop-filter: blur(10px);
-    opacity: 50%;
-    width: 100%;
-    height: 100%;
-    background-color: gray;
-    z-index: -1;
-    transition: all 0.3s ease-in-out;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
 
-.sim_card button{
-    width: 100%;
-    border-radius: 8px;
-    border: none;
-    background-color: #ff6b00;
-    color: #fff;
-    font-weight: 500;
-    font-size: 17px;
-    margin-top: 80px;
-    padding: 12px;
+  .about-card ul li {
+    font-size: 20px;
+  }
 }
