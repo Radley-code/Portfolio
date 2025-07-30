@@ -104,7 +104,11 @@ sh
 
 👤 *Acha Radley*
 
-- GitHub: [@Radley-code] (https://github.com/Radley-code)
+- GitHub: [@Radley-code](https://github.com/Radley-code)
+
+👤 *Ngala Daisy*
+
+- GitHub: [@daisyclair](https://github.com/daisyclair)
 
  FUTURE FEATURES 
 
