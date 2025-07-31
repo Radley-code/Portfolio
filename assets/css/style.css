@@ -6,7 +6,7 @@
 }
 
 /* Media Queries for mobile devices */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .desktop-menu,
   .desk_social,
   .home_desk_bg {
@@ -96,7 +96,7 @@
   }
 }
 
-/* Portfolio Section styling */
+/* Project Section styling */
 .projects {
   display: flex;
   flex-direction: column;
@@ -272,7 +272,7 @@
   padding: 12px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   /* About section styling  */
   .about {
     display: flex;
@@ -484,5 +484,49 @@
     margin: 50px 0;
     border-radius: 15px;
     border-bottom: 1px solid #fff;
+  }
+}
+
+/* Tablet version */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .projects {
+    gap: 20px;
+  }
+
+  .sim_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .diff_cards {
+    flex-direction: row;
+    gap: 20px;
+    border: none;
+    margin-bottom: 20px;
+  }
+
+  .about {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mob_input input,
+  .similar input {
+    width: 700px;
+  }
+
+  .similar textarea {
+    width: 700px;
   }
 }
