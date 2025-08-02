@@ -5,6 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 
+
 /* Media Queries for mobile devices */
 @media (max-width: 1024px) {
   .desktop-menu,
@@ -56,6 +57,7 @@
   .home {
     padding: 120px 0 20px 24px;
     background: #000;
+    position: relative; /* Ensure the parent is positioned */
   }
 
   .home h1 {
@@ -92,7 +94,7 @@
   .bg {
     display: flex;
     justify-content: end;
-    margin-top: -250px;
+    margin-top: -220px;
   }
 }
 
@@ -530,3 +532,32 @@
     width: 700px;
   }
 }
+/* @media (min-width: 1025px) { 
+  .projects {
+    padding: 150px 80px;
+  }
+
+  .sim_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .diff_cards {
+    flex-direction: row;
+    gap: 20px;
+    border: none;
+    margin-bottom: 20px;
+  }
+
+  .about-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+  */ 
