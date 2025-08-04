@@ -23,10 +23,10 @@
                 </div>
                 <div class="desktop-menu">
                     <ul>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#"><img src="./assets/images/email.svg" alt="Mail"></a></li>
+                        <li><a href="#home">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="mailto:radleyacha00@icloud.com"><img src="./assets/images/email.svg" alt="Mail"></a></li>
                     </ul>
                 </div>
             </div>
@@ -35,7 +35,7 @@
     <main>
 
         <!-- Home Section -->
-        <section class="home">
+        <section class="home" id="home">
             <div class="desk_social">
                 <ul>
                     <li><a href="https://github.com/Radley-code" title="GitHub"><img src="./assets/images/github.svg" alt="GitHub"></a></li>
@@ -70,7 +70,7 @@
                 
         </section>
         <!-- project section -->
-        <section class="projects">
+        <section class="projects" id="projects">
             <div class="project_heading">
                 <h2>My Recent Works</h2>
                 <p></p>
@@ -132,6 +132,16 @@
                     </ul>
                 <button type="button" title="See Project">See Project</button>
             </div>
+            <div class="sim_card">
+                <h3>Professional Art Printing Data</h3>
+                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>Ruby</li>
+                        <li>Booststrap</li>
+                    </ul>
+                <button type="button" title="See Project">See Project</button>
+            </div>
              <div class="sim_card">
                 <h3>Professional Art Printing Data</h3>
                 <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
@@ -145,7 +155,7 @@
         </section>
 
         <!-- About section -->
-        <section class="about">
+        <section class="about" id="about">
             <div class="about-text">
                 <span class="about-txt">
                     <h2>About Me</h2>
@@ -153,6 +163,7 @@
                         Look through some of my work and experience! If you like what you see and have a project you need coded, 
                         don’t hestiate to contact me.</p>
                     <button type="button" title="Get my resume">Get my resume</button>
+                    <p class="about-line"></p>
                 </span>
                 <span class="about-bg">
                     <img src="./assets/images/abt_mob_bg.svg" alt="About Background mobile" class="abt_mob_bg">
@@ -198,16 +209,17 @@
                 </ul>
             </div>
             </div>
-        </section class='about'>
+        </section class="about">
         <div class="about cards">
         </div>
         </section>
 
         <!-- contact section  -->
-             <section class="contact">
+             <section class="contact" id="contact">
+                <div class="context-text">
         <p>I'm always interested in hearing about new projects,
              so if you'd like to chat please get in touch.
-            </p>
+            </p></div>
             <form action="">
                 <div class="different">
                     <span class="desk_input">
@@ -225,6 +237,7 @@
                 <button type="submit">Get in touch</button>
             </form>
         </section>
+         <hr class="hr">
     </main>
     <footer>
              <div class="foot_social">
