@@ -538,7 +538,7 @@
   }
 }
 
-@media (min-width: 1025px) {
+/* Desktop version */
   @media (min-width: 1025px) {
     .mobile-menu,
     .mobile_social,
@@ -659,7 +659,7 @@
       text-align: left;
       margin-top: 10px;
     }
-  }
+  
 
   .projects {
     padding: 150px 80px;
