@@ -596,20 +596,17 @@
   }
 
   .home {
-    padding: 150px 10px;
+    padding: 150px 0 150px 20px;
     background: #000;
     display: flex;
+    justify-content: center;
     gap: 56px;
   }
 
   .desk_social {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-    gap: 10px;
-    margin-top: 90px;
-    padding-bottom: 480px;
+    margin-top: 50px;
+    margin-left: 30px;
   }
 
   .diff_text ul {
@@ -638,14 +635,13 @@
   .home .desk_social ul {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
   }
 
   .home_content {
-    margin-right: 20px;
     display: flex;
     flex-direction: column;
-    padding-top: 80px;
+    gap: 20px;
   }
 
   .home_desk_bg {
