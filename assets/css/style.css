@@ -56,7 +56,7 @@
   .home {
     padding: 120px 0 20px 24px;
     background: #000;
-    position: relative; /* Ensure the parent is positioned */
+    position: relative;
   }
 
   .home h1 {
@@ -596,24 +596,23 @@
   }
 
   .home {
-    padding: 150px 0.2%;
+    padding: 150px 10px;
     background: #000;
     display: flex;
     gap: 56px;
-    position: relative;
   }
 
   .desk_social {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 30px;
-    gap: 20px;
+    padding: 40px;
+    gap: 10px;
     margin-top: 90px;
     padding-bottom: 480px;
   }
 
-  .diff_text ul {
+  . .diff_text ul {
     transform: translateY(-40px);
   }
 
@@ -632,6 +631,10 @@
     list-style: none;
   }
 
+  .sim_card ul {
+    padding-top: 80px;
+  }
+
   .home .desk_social ul {
     display: flex;
     flex-direction: column;
@@ -639,10 +642,10 @@
   }
 
   .home_content {
-    margin-top: 70px;
     margin-right: 20px;
-    margin-left: 30px;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
   }
 
   .home_desk_bg {
@@ -673,6 +676,8 @@
   }
 
   .home p {
+    line-height: 26px;
+    padding-right: 20px;
     font-size: 1rem;
     font-weight: 400;
     color: #fff;
@@ -708,6 +713,7 @@
   .diff_text {
     display: flex;
     gap: 40px;
+    padding-top: 100px;
   }
 
   .diff_text h3 {
@@ -732,6 +738,10 @@
     gap: 50px;
     justify-content: center;
     align-items: center;
+  }
+
+  .sim_card button {
+    display: none;
   }
 
   .diff_cards {
