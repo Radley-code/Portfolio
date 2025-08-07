@@ -5,7 +5,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-
 /* Media Queries for mobile devices */
 @media (max-width: 1024px) {
   .desktop-menu,
@@ -827,8 +826,6 @@
     margin-bottom: 20px;
   }
 
-
-
   /* Contact Section */
 
   .contact {
@@ -943,8 +940,6 @@
     padding: 25px 5px;
     color: #fff;
   }
-
-
 
   .line marquee p a {
     text-decoration: none;
