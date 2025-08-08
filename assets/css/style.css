@@ -704,6 +704,7 @@
     width: 90%;
     height: 400px;
     border-radius: 0;
+    margin-left: 20px;
   }
 
   .diff_text {
@@ -724,7 +725,7 @@
   }
 
   .diff_text button {
-    transform: translateY(-70px);
+    transform: translateY(-50px);
     border-radius: 0;
   }
 
