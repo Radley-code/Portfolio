@@ -5,4 +5,5 @@ mobileMenu.addEventListener('click', () => { //add event listener to the mobile 
     // Swap class mames of mobile and desktop menus
     mobileMenu.classList.toggle('active');
     desktopMenu.classList.toggle('active');
-})
+});
+
