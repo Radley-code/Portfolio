@@ -1,3 +1,84 @@
+/* Modal Styles */
+.modal {
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  margin-right: 30px;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  backdrop-filter: blur(5px);
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: #fff;
+  color: #222;
+  margin-top: 50px;
+  padding: 32px 24px;
+  margin-left: 20px;
+  height: auto;
+  width: 90vw;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.modal-content h3 {
+  margin-top: 0;
+  font-size: 2rem;
+  color: black;
+}
+
+.modal-content ul {
+  list-style: none;
+  margin: 16px 0 0 0;
+  display: flex;
+  gap: 10px;
+}
+
+.modal-content ul li {
+  border: #000 1px solid;
+  padding: 8px 14px;
+  margin-bottom: 50px;
+  font-size: 1rem;
+  color: #222;
+}
+
+#modal-image{
+  width: 100%;
+  height: auto;
+
+}
+
+.modal-buttons{
+  display: flex;  
+  gap: 10px;
+}
+
+.modal-buttons button{
+  width: 124px;
+  border: none;
+  background-color: #ff6b00;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 20px;
+  padding: 8px;
+}
+
+.close {
+  position: absolute;
+  top: 12px;
+  right: 18px;
+  font-size: 3rem;
+  color: black;
+  cursor: pointer;
+  
+}
+/* end of modal styling */
 * {
   margin: 0;
   padding: 0;
@@ -766,7 +847,7 @@
   .diff_text p {
     transform: translateY(-20px);
     font-size: 25px;
-    padding: 40px 0  20 0;
+    padding: 40px 0 20 0;
   }
 
   .diff_text button {

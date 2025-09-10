@@ -88,69 +88,28 @@
                     <li>Bootstrap</li>
                     <li>RUBY</li>
                 </ul>
-                <button type="button" title="See Project">See Project</button>
+                <button type="button" title="See Project" onclick="OpenDiff(card)">See Project</button>
             </div>
         </div>
+
         <div class="sim_cards">
-            <div class="sim_card">
-                <h3>Professional Art Printing Data</h3>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>Ruby</li>
-                        <li>Booststrap</li>
-                    </ul>
-                <button type="button" title="See Project">See Project</button>
-            </div>
-             <div class="sim_card">
-                <h3>Professional Art Printing Data</h3>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>Ruby</li>
-                        <li>Booststrap</li>
-                    </ul>
-                <button type="button" title="See Project">See Project</button>
-            </div>
-             <div class="sim_card">
-                <h3>Professional Art Printing Data</h3>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>Ruby</li>
-                        <li>Booststrap</li>
-                    </ul>
-                <button type="button" title="See Project">See Project</button>
-            </div>
-             <div class="sim_card">
-                <h3>Professional Art Printing Data</h3>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>Ruby</li>
-                        <li>Booststrap</li>
-                    </ul>
-                <button type="button" title="See Project">See Project</button>
-            </div>
-            <div class="sim_card">
-                <h3>Professional Art Printing Data</h3>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>Ruby</li>
-                        <li>Booststrap</li>
-                    </ul>
-                <button type="button" title="See Project">See Project</button>
-            </div>
-             <div class="sim_card">
-                <h3>Professional Art Printing Data</h3>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>Ruby</li>
-                        <li>Booststrap</li>
-                    </ul>
-                <button type="button" title="See Project">See Project</button>
+        </div>
+        <!-- Directly below -->
+        <!-- Modal for project cards -->
+        <div id="project-modal" class="modal" style="display:none;">
+            <div class="modal-content">
+                <span class="close" id="close-modal">&times;</span>
+                <h3 id="modal-title"></h3>
+                <ul id="modal-tech"></ul>
+                <img id="modal-image" src="" alt="Project Image">
+                <p id="modal-description"></p>
+                <div class="modal-buttons">
+                    <button id="live-btn" type="button">See Live <img src="./assets/images/github.svg" alt="Live Icon"></button>
+                    <button id="source-btn" type="button">See Source <img src="./assets/images/github.svg" alt="GitHub Icon"></button>
+            </div>    
+            
+        </div>
+<!-- End modall -->
         </div>
         </section>
 
