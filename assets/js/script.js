@@ -28,6 +28,8 @@ const projects = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     techStark: ["HTML", "Ruby", "BootStrap"],
     button: "#",
+    live_btn: "#",
+    source_btn: "#",
   },
   {
     title: "The Professional Art Printing Data",
@@ -35,6 +37,8 @@ const projects = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     techStark: ["HTML", "Ruby", "BootStrap"],
     button: "#",
+    live_btn: "#",
+    source_btn: "#",
   },
   {
     title: "One Professional Art Printing Data",
@@ -42,6 +46,8 @@ const projects = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     techStark: ["HTML", "Ruby", "BootStrap"],
     button: "#",
+    live_btn: "#",
+    source_btn: "#",
   },
   {
     title: " my Professional Art Printing Data",
@@ -49,6 +55,8 @@ const projects = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     techStark: ["HTML", "Ruby", "BootStrap"],
     button: "#",
+    live_btn: "https://google.com",
+    source_btn: "#",
   },
   {
     title: "this is Professional Art Printing Data",
@@ -56,6 +64,8 @@ const projects = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     techStark: ["HTML", "Ruby", "BootStrap"],
     button: "#",
+    live_btn: "#",
+    source_btn: "#",
   },
 ];
 
