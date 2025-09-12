@@ -220,6 +220,18 @@ function openModal(card) {
     window.location.href = card.live_btn;
   });
 
+  const sourceButton = document.createElement("button");
+  sourceButton.type = "button";
+  sourceButton.title = "See Project Source";
+  sourceButton.className = "live-btn"; 
+  sourceButton.textContent = "See source";
+  modalButtonsContainer.appendChild(sourceButton);
+
+  sourceButton.addEventListener("click", function() {
+    window.location.href = card.source_btn;
+  });
+
+
  modal.style.display = "block";
 }
 
