@@ -48,18 +48,17 @@
   color: #222;
 }
 
-#modal-image{
+#modal-image {
   width: 100%;
   height: auto;
-
 }
 
-.modal-buttons{
-  display: flex;  
+.modal-buttons {
+  display: flex;
   gap: 10px;
 }
 
-.modal-buttons button{
+.modal-buttons button {
   width: 124px;
   border: none;
   background-color: #ff6b00;
@@ -76,8 +75,8 @@
   font-size: 3rem;
   color: black;
   cursor: pointer;
-  
 }
+
 /* end of modal styling */
 * {
   margin: 0;
